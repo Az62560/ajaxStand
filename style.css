@@ -1,0 +1,21 @@
+#mot {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:0;
+    border:none;
+    outline:none;
+    background-color:#444;
+    color:#FFF;
+    padding:10px;
+}
+
+#sugg {
+    margin-top:2px;
+    border:solid 1px #AAA;
+    visibility:hidden;
+}
+
+#sugg>div {
+    padding:4px 10px;
+    cursor:pointer;
+}
